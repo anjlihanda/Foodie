@@ -55,7 +55,7 @@ function Register() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/auth/signup",
+        "https://foodie-1-ck6c.onrender.com/api/auth/signup",
         {
           method: "POST",
           headers: {

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useCart } from "./Cartcontext";
 import { useNavigate } from "react-router-dom";
 
-const API = "http://localhost:5000/api";
+const API = "https://foodie-1-ck6c.onrender.com/api";
 
 // Load Razorpay Checkout
 const loadRazorpayScript = () => {

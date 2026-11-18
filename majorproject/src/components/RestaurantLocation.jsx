@@ -50,7 +50,7 @@ function RestaurantLocation() {
       const token = localStorage.getItem("foodieToken");
 
       const response = await fetch(
-        "http://localhost:5000/api/restaurants/location",
+        "https://foodie-1-ck6c.onrender.com/api/restaurants/location",
         {
           method: "POST",
           headers: {

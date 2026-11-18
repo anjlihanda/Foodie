@@ -6,7 +6,7 @@ function OfferSlider() {
   const [loading, setLoading] = useState(true);
   const [current, setCurrent] = useState(0);
 
-  const API = "http://localhost:5000/api/offers";
+  const API = "https://foodie-1-ck6c.onrender.com/api/offers";
 
   const fetchOffers = async () => {
     try {

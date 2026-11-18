@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useCart } from "./Cartcontext";
 
-const API = "http://localhost:5000/api";
+const API = "https://foodie-1-ck6c.onrender.com/api";
 
 const Menu = ({ search = "", setSearch }) => {
   const { addToCart } = useCart();

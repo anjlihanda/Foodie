@@ -18,7 +18,7 @@ function RestaurantAdmin() {
       setLoading(true);
 
       const response = await fetch(
-        "http://localhost:5000/api/orders/all",
+        "https://foodie-1-ck6c.onrender.com/api/orders/all",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -61,7 +61,7 @@ function RestaurantAdmin() {
       setUpdatingId(id);
 
       const response = await fetch(
-        `http://localhost:5000/api/orders/${id}/status`,
+        `https://foodie-1-ck6c.onrender.com/api/orders/${id}/status`,
         {
           method: "PUT",
           headers: {
